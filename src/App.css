@@ -1,38 +1,57 @@
-.App {
+@font-face {
+  font-family: "Carena";
+  src: url("../fonts/Carena-Regular.woff");
+}
+
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("../fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../fonts/Montserrat-Bold.ttf");
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Carena";
+  color: #664144 !important;
+}
+
+h1{
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p, li, a {
+  font-family: "Montserrat-Regular";
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bg-primary{
+  background-color: #ECD3D3 !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.bg-secondary{
+  background-color: #664144 !important;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-primary{
+  background-color: #664144 !important;
+  border-color: #664144 !important;;
+  color: #ECD3D3 !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text-primary {
+  color: #664144 !important;
 }
+
+.text-secondary {
+  color: #ECD3D3 !important;
+}
+
+.text-justify{
+  text-align: justify;
+}
+
+
