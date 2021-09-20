@@ -1,20 +1,20 @@
 @font-face {
-  font-family: "Carena";
-  src: url("../fonts/Carena-Regular.woff");
+  font-family: 'Carena';
+  src: url('fonts/Carena-Regular.woff');
 }
 
 @font-face {
-  font-family: "Montserrat-Regular";
-  src: url("../fonts/Montserrat-Regular.ttf");
+  font-family: 'Montserrat-Regular';
+  src: url('fonts/Montserrat-Regular.ttf');
 }
 
 @font-face {
-  font-family: "Montserrat-Bold";
-  src: url("../fonts/Montserrat-Bold.ttf");
+  font-family: 'Montserrat-Bold';
+  src: url('fonts/Montserrat-Bold.ttf');
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Carena";
+  font-family: 'Carena';
   color: #664144 !important;
 }
 
@@ -25,7 +25,7 @@ h1{
 }
 
 p, li, a {
-  font-family: "Montserrat-Regular";
+  font-family: 'Montserrat-Regular';
 }
 
 .bg-primary{
