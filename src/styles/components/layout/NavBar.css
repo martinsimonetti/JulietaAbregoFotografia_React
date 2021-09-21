@@ -1,0 +1,30 @@
+.navbar{
+    padding: 4px 0;
+}
+
+@media (min-width: 1200px) {
+    .navbar-nav {
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        margin-right: 266px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar-nav {
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        margin-right: 0;
+    }
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: #BE807A !important;
+    font-size: large;
+}
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link{
+    color: #ECD3D3 !important;
+}
