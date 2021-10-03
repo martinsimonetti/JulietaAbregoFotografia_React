@@ -35,7 +35,7 @@ const Footer = (props) => {
             </Container>
             <div className="text-center p-3" style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
                 © 2021 Copyright
-                <p><a className="text-secondary text-decoration-none" href="#">Martín Simonetti</a></p>
+                <p className="mb-0"><a className="text-secondary text-decoration-none" href="#">Martín Simonetti</a></p>
             </div>
         </footer>
     )
