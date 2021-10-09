@@ -1,0 +1,37 @@
+.background-servicios{
+    background-size: cover;
+}
+
+@media (max-width: 767px) { 
+    .background-servicios{
+        width: 300px !important;
+        min-height: 533px !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .background-servicios{
+        width: 324px !important;
+        min-height: 576px !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .background-servicios{
+        width: 210px !important;
+        min-height: 373px !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .background-servicios{
+        width: 255px !important;
+        height: 453px !important;
+    }
+}
+
+.card{
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 1.5rem;
+}
