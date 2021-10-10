@@ -29,7 +29,7 @@ const Seccion4 = (props) => {
                                         </Col>
                                         <Col xs={12} className='mb-3'>
                                             <label for="inputEmail" class="form-label">Correo electrónico</label>
-                                            <input type="email" class="form-control" id="inputEmail" required />
+                                            <input type="email" placeholder="Ingresá tu e-mail..." class="form-control" id="inputEmail" required />
                                         </Col>
                                         <Col xs={12} className='col-align-center'>
                                             <a href="#" class="btn btn-primary btn-centrado">Suscribirse</a>

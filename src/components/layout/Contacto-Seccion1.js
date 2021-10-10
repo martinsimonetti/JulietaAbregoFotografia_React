@@ -45,22 +45,22 @@ const Seccion1 = (props) => {
                                 </Row>
                                 <br />
                                 <form>
-                                    <Row className='g-3' lg={2}>
-                                        <Col cols={12}>
+                                    <Row className='g-3' xs={1} lg={2}>
+                                        <Col>
                                             <label for="inputNombre" className="form-label">Nombre completo</label>
                                             <input type="text" className="form-control" id="inputNombre"
                                                 placeholder="Ingresá tu nombre..." required />
                                         </Col>
-                                        <Col cols={12}>
+                                        <Col>
                                             <label for="inputRedes" className="form-label">Redes (Opcional)</label>
                                             <input type="text" className="form-control" id="inputRedes"
                                                 placeholder="Ingresá tus redes..." />
                                         </Col>
-                                        <Col cols={12}>
+                                        <Col>
                                             <label for="inputEmail" className="form-label">Correo electrónico</label>
                                             <input type="email" className="form-control" id="inputEmail" placeholder="Ingresá tu e-mail..." required />
                                         </Col>
-                                        <Col cols={12}>
+                                        <Col>
                                             <label for="inputMensaje" className="form-label">Mensaje</label>
                                             <textarea className="form-control" id="inputMensaje" rows="5"
                                                 placeholder="Dejá tu mensaje..." required></textarea>
