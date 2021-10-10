@@ -10,7 +10,7 @@ const Seccion1 = (props) => {
     return (
         <section>
             <Container>
-                <Card className='my-4'>
+                <Card>
                     <Row>
                         <div>
                             <Card.Body>
