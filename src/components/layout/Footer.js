@@ -14,10 +14,10 @@ const Footer = (props) => {
                 <Row>
                     <Col lg={6} md={12} className='mb-6 md-0'>
                         <h5 className='text-secondary align-self-start'>Quiero info sobre...</h5>
-                        <ul className='list-unstyled'>
-                            {/* <li><Link href='/' className='text-secondary text-decoration-none'>Servicios</Link></li>
-                            <li><Link href='/' className='text-secondary text-decoration-none'>Cursos</Link></li>
-                            <li><Link href='/' className='text-secondary text-decoration-none'>Recursos gratuitos</Link></li> */}
+                        <ul className='list-unstyled'>                        
+                            <li><Link to='/servicios' className='text-secondary text-decoration-none'>Servicios</Link></li>
+                            <li><Link to='/cursos' className='text-secondary text-decoration-none'>Cursos</Link></li>
+                            <li><Link to='/recursos' className='text-secondary text-decoration-none'>Recursos gratuitos</Link></li>
                         </ul>
                     </Col>
                     <Col lg={3} className='mb-6 md-0'>
@@ -26,7 +26,7 @@ const Footer = (props) => {
                     <Col lg={3} md={12} className='mb-6 md-0'>
                         <h5 className='text-secondary align-self-start'>Buscame en las redes</h5>
                         <ul className='list-unstyled'>
-                            <li><a href="https://wa.me/message/LA5VAWG3CCUDF1" class="text-secondary text-decoration-none"><FontAwesomeIcon icon={faWhatsapp} /> 11 3042-2765</a></li>
+                            <li><a href="https://wa.me/message/LA5VAWG3CCUDF1" class="text-secondary text-decoration-none" target="_blank"><FontAwesomeIcon icon={faWhatsapp} /> 11 3042-2765</a></li>
                             <li><a href="https://www.instagram.com/julietaabregoph/" class="text-secondary text-decoration-none" target="_blank"><FontAwesomeIcon icon={faInstagram} /> @julietaabregoph</a></li>
                             <li><a href="https://www.tiktok.com/@julietaabregoph" class="text-secondary text-decoration-none" target="_blank"><FontAwesomeIcon icon={faTiktok} /> @julietaabregoph</a></li>
                         </ul>

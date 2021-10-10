@@ -8,6 +8,8 @@ import '../../styles/components/layout/NavBar.css';
 
 import logo from '../../images/logoPrincipal.png';
 
+import { NavLink } from 'react-router-dom';
+
 
 const NavBar = (props) => {
     return (
@@ -17,11 +19,11 @@ const NavBar = (props) => {
                 <Navbar.Toggle aria-controls="navbarNavAltMarkup" />
                 <Navbar.Collapse id="navbarNavAltMarkup">
                     <Nav className="mr-auto my-lg-0">
-                        <Nav.Link href="#action1">Inicio</Nav.Link>
-                        <Nav.Link href="#action2">Servicios</Nav.Link>
-                        <Nav.Link href="#action2">Cursos</Nav.Link>
-                        <Nav.Link href="#action2">Recursos gratuitos</Nav.Link>
-                        <Nav.Link href="#action2">Contacto</Nav.Link>
+                        <NavLink exact to="/" className='nav-link' activeClassName="active">Inicio</NavLink>
+                        <NavLink exact to="/servicios" className='nav-link' activeClassName="active">Servicios</NavLink>
+                        <NavLink exact to="/cursos" className='nav-link' activeClassName="active">Cursos</NavLink>
+                        <NavLink exact to="/recursos" className='nav-link' activeClassName="active">Recursos gratuitos</NavLink>
+                        <NavLink exact to="/contacto" className='nav-link' activeClassName="active">Contacto</NavLink>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
