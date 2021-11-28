@@ -71,12 +71,7 @@ const ContactoPage = (props) => {
                                         </a>
                                     </Row>
                                     <Row cols={1}>
-                                        <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                            Laborum
-                                            provident laudantium ea dolores qui facere temporibus ipsa culpa pariatur.
-                                            Expedita
-                                            vero veritatis mollitia temporibus consequatur nobis itaque architecto incidunt
-                                            porro.</p>
+                                        <p className="card-text">¿En qué puedo ayudarte? Si tenés alguna duda, alguna consulta, si querés pedir un presupuesto o cualquier otra cuestión, ¡enviame un mensaje y charlemos!</p>
                                     </Row>
                                     <br />
                                     <form action="/contacto" method="post" onSubmit={handleSubmit}>

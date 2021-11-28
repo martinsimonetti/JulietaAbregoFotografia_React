@@ -49,9 +49,7 @@ const Seccion4 = (props) => {
                         <Col lg={8}>
                             <Card.Body>
                                 <h3>Formulario de suscripción</h3>
-                                <Card.Text>Lorem ipsum dolor sit amet consectetur adipisicing elit.Laborum
-                                    provident laudantium ea dolores qui facere temporibus ipsa culpa pariatur.Expedita
-                                    vero veritatis mollitia.
+                                <Card.Text>Suscribite para recibir info, tips y ofertas exclusivas ❤️ (pero tranquilx, no voy a llenar tu casilla de mail)
                                 </Card.Text>
                                 <form className="g-3" action="/" method="post" onSubmit={handleSubmit}>
                                     <Row>
@@ -64,14 +62,19 @@ const Seccion4 = (props) => {
                                             <label for="inputEmail" class="form-label">Correo electrónico</label>
                                             <input type="email" placeholder="Ingresá tu e-mail..." class="form-control" id="email" name="email" value={formData.email} onChange={handleChange} required />
                                         </Col>
-                                        <Col xs={12} className='col-align-center'>
+                                        <Col xs={4} className='col-align-center'>
+                                            {sending ? <p>Enviando...</p> : null}
+                                            {msg ? <p>{msg}</p> : null}
+                                        </Col>
+                                        <Col xs={4} className='col-align-center'>
                                             <input type="submit" class="btn btn-primary btn-centrado" value="Suscribirse" />
+                                        </Col>
+                                        <Col xs={4} className='col-align-center'>
+
                                         </Col>
                                     </Row>
                                     <br />
                                 </form>
-                                {sending ? <p>Enviando...</p> : null}
-                                {msg ? <p>{msg}</p> : null}
                             </Card.Body>
                         </Col>
                     </Row>

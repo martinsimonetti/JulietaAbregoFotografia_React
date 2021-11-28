@@ -8,19 +8,15 @@ const Seccion3 = (props) => {
             <Container>
                 <h1>¿Quién soy?</h1>
                 <Row className="align-items-center">
-                    <Col lg={8}>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto aliquam laboriosam dicta
-                            corporis delectus, dolores impedit, adipisci perspiciatis autem quis fuga, consequuntur
-                            omnis molestiae saepe! Ipsa quod hic labore modi.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil nam omnis explicabo soluta
-                            similique doloribus aspernatur qui voluptas exercitationem quasi. Excepturi consectetur
-                            aliquid cupiditate sit, reprehenderit totam vitae rerum. Obcaecati?</p>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, voluptatem? Minus ad alias
-                            aliquid praesentium cum ratione voluptatum culpa perferendis deleniti saepe distinctio,
-                            rerum aspernatur porro, quaerat dolorem, cupiditate exercitationem.</p>
+                    <Col lg={8} className="text-justify">
+                        <p>¡Hola! ❤️</p>
+                        <p>🙋🏻‍♀️ Soy Julieta, tengo 24 años, y vivo en Lanús, Buenos Aires.</p>
+                        <p>🎓Me formé como fotógrafa profesional en la Escuela Motivarte. A su vez, hice diversos cursos y capacitaciones en diseño gráfico, motion graphics, animación, audiovisuales, comunicación y community manager.</p>
+                        <p>📸 Durante más de 6 años trabajé en todas las ramas de la fotografía que te puedas imaginar, pero en 2021 decidí emprender un nuevo camino.</p>
+                        <p>✨ ¡Mi objetivo hoy es ayudar a emprendedores a que vendan a través de sus fotos y redes sociales!</p>
                     </Col>
-                    <Col lg={4}>
-                        <img src={fotoQuienSoy} className="img-fluid" alt="" />
+                    <Col lg={4} className="text-end">
+                        <img src={fotoQuienSoy} className="img-fluid" alt="" width='90%'/>
                     </Col>
                 </Row>
             </Container>
