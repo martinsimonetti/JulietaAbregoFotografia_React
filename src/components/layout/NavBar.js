@@ -22,7 +22,6 @@ const NavBar = (props) => {
                         <NavLink exact to="/" className='nav-link' activeClassName="active">Inicio</NavLink>
                         <NavLink exact to="/servicios" className='nav-link' activeClassName="active">Servicios</NavLink>
                         <NavLink exact to="/galeria" className='nav-link' activeClassName="active">Galeria</NavLink>
-                        <NavLink exact to="/recursos" className='nav-link' activeClassName="active">Recursos gratuitos</NavLink>
                         <NavLink exact to="/contacto" className='nav-link' activeClassName="active">Contacto</NavLink>
                     </Nav>
                 </Navbar.Collapse>
