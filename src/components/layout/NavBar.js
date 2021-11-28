@@ -15,7 +15,7 @@ const NavBar = (props) => {
     return (
         <Navbar variant="dark" expand="lg" className="bg-secondary">
             <Container fluid>
-                <Navbar.Brand href="#"><img src={logo} alt="Julieta Abrego Fotografía" width="250px" /></Navbar.Brand>
+                <Navbar.Brand href="/"><img src={logo} alt="Julieta Abrego Fotografía" width="250px" /></Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarNavAltMarkup" />
                 <Navbar.Collapse id="navbarNavAltMarkup">
                     <Nav className="mr-auto my-lg-0">
