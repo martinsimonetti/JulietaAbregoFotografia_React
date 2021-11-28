@@ -1,5 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 
+import fotoQuienSoy from '../../images/fotos/QuienSoy.jpg';
+
 const Seccion3 = (props) => {
     return (
         <section>
@@ -18,7 +20,7 @@ const Seccion3 = (props) => {
                             rerum aspernatur porro, quaerat dolorem, cupiditate exercitationem.</p>
                     </Col>
                     <Col lg={4}>
-                        <img src="https://via.placeholder.com/720x720.png" className="img-fluid" alt="" />
+                        <img src={fotoQuienSoy} className="img-fluid" alt="" />
                     </Col>
                 </Row>
             </Container>
