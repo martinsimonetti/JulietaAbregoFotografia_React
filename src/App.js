@@ -6,6 +6,7 @@ import Footer from './components/layout/Footer.js';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import InicioPage from './pages/InicioPage';
 import ServiciosPage from './pages/ServiciosPage';
+import GaleriaPage from './pages/GaleriaPage';
 import RecursosPage from './pages/RecursosPage';
 import ContactoPage from './pages/ContactoPage';
 
@@ -18,6 +19,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={InicioPage} />
           <Route path="/servicios" exact component={ServiciosPage} />
+          <Route path="/galeria" exact component={GaleriaPage} />
           <Route path="/recursos" exact component={RecursosPage} />
           <Route path="/contacto" exact component={ContactoPage} />
         </Switch>
